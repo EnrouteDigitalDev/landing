@@ -681,12 +681,18 @@ input[type="checkbox"] {
 }
 
 .swiper-nav-button {
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
-    visibility 0.1s linear 2s, opacity 0.1s linear 2s;
-  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
-    visibility 0.1s linear 2s, opacity 0.1s linear 2s;
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
-    visibility 0.1s linear 2s, opacity 0.1s linear 2s;
+  -webkit-transition:
+    all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    visibility 0.1s linear 2s,
+    opacity 0.1s linear 2s;
+  -o-transition:
+    all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    visibility 0.1s linear 2s,
+    opacity 0.1s linear 2s;
+  transition:
+    all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    visibility 0.1s linear 2s,
+    opacity 0.1s linear 2s;
   background-image: none;
   text-align: center;
   -webkit-user-select: none;
@@ -3784,7 +3790,9 @@ input[type="checkbox"] {
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   z-index: 9999;
   background: rgba(0, 0, 0, 0.7);
-  cursor: url(../images/light-close.webp) 16 16, pointer;
+  cursor:
+    url(../images/light-close.webp) 16 16,
+    pointer;
   visibility: hidden;
   opacity: 0;
 }
@@ -6616,7 +6624,8 @@ ul.footer-widget__horizontal-list li {
 .ht-box-images.style-09 .image-box-wrap {
   border-radius: 5px;
   text-align: center;
-  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+  transition:
+    transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
     box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
     -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 30px 35px 31px;
@@ -6798,7 +6807,8 @@ ul.footer-widget__horizontal-list li {
 .image-box-boder-box .image-box-boder {
   padding: 0;
   position: relative;
-  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+  transition:
+    transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
     box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
     -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -7030,7 +7040,9 @@ ul.footer-widget__horizontal-list li {
   transition: -webkit-transform 1s;
   -o-transition: transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  transition:
+    transform 1s,
+    -webkit-transform 1s;
 }
 .box-large-image__midea .images-midea::after {
   content: "";
@@ -7144,7 +7156,9 @@ ul.footer-widget__horizontal-list li {
   transition: -webkit-transform 1s;
   -o-transition: transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  transition:
+    transform 1s,
+    -webkit-transform 1s;
 }
 .box-large-image__two .box-large-image__midea::after {
   content: "";
@@ -10310,15 +10324,25 @@ ol {
 
 .hint--bounce:before,
 .hint--bounce:after {
-  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease,
+  -webkit-transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease,
     -webkit-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
-  transition: opacity 0.3s ease, visibility 0.3s ease,
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease,
     -webkit-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
-  -o-transition: opacity 0.3s ease, visibility 0.3s ease,
+  -o-transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease,
     transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
-  transition: opacity 0.3s ease, visibility 0.3s ease,
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease,
     transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
-  transition: opacity 0.3s ease, visibility 0.3s ease,
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease,
     transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24),
     -webkit-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
 }
@@ -12434,8 +12458,9 @@ blockquote {
     video section css
 --------------------------*/
 .infotechno-section-bg-01 {
-  background: url(../images/patterns/mitech-home-infotechno-section-company-bg.webp)
-      top 140px left no-repeat,
+  background:
+    url(../images/patterns/mitech-home-infotechno-section-company-bg.webp) top
+      140px left no-repeat,
     -webkit-linear-gradient(top, #fff 0, #f5f5f5 100%);
 }
 
@@ -15171,4 +15196,26 @@ blockquote {
   border-color: #d2a98e;
   background: #d2a98e;
   color: #fff !important;
+}
+
+.outlined-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 8px 20px !important;
+  background: transparent;
+  margin-left: 20px;
+  color: #fff;
+  gap: 10px;
+  font-size: 16px !important;
+  font-weight: 500;
+}
+.outlined-icon-button:hover {
+  background: #fff4;
+  /* color: #002fa6; */
+}
+.outlined-icon-button i {
+  color: #fff;
 }
